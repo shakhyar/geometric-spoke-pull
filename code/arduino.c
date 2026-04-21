@@ -22,14 +22,14 @@ void pushValue(float *arr, int len, float val) {
   arr[len - 1] = val;
 }
 
-// Compute slopes 
+// Compute slopes
 void computeSlopes() {
   for (int i = 0; i < WINDOW_SIZE - 1; i++) {
     slopes[i] = y_vals[i + 1] - y_vals[i];
   }
 }
 
-//Feature functions 
+//Feature functions
 float computeVelocity() {
   float sum = 0;
   for (int i = 0; i < WINDOW_SIZE - 1; i++) sum += slopes[i];
@@ -52,6 +52,8 @@ float computeCurvature() {
   return var / (WINDOW_SIZE - 1);
 }
 
+
+// added momentum component here
 float computeMomentum() {
   float sum = 0, wsum = 0;
   for (int i = 0; i < WINDOW_SIZE - 1; i++) {
@@ -62,7 +64,7 @@ float computeMomentum() {
   return sum / wsum;
 }
 
-// prediction 
+// prediction
 float predictNext() {
   computeSlopes();
   float V = computeVelocity();
@@ -82,6 +84,7 @@ float predictNext() {
 }
 
 //cold loading from SD
+// exception is thrown if file not found
 bool loadWeights() {
   File f = SD.open(WEIGHT_FILE, FILE_READ);
   if (!f) {
@@ -146,4 +149,3 @@ void loop() {
     Serial.println(prediction, 3);
   }
 }
-
