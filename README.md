@@ -14,6 +14,15 @@ Contact: [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the
 
 ![Spoke System Cover](spoke_system_cover.png)
 
+# Team EternalzTech (SIH-2025)
+
+- Ankur Kaman  
+- Arkajeet Bhattacharjee  
+- Nitish Kumar Das  
+- Devahuti Phukan  
+- Shrutidhara Tasa  
+- Shakhyar Gogoi (Repo Owner)
+
 # Overview
 
 Modern irrigation systems face a common question:
@@ -94,14 +103,7 @@ This is the core idea behind Geometric Spoke Pull.
 
 This enables true AI-style learning on microcontrollers.
 
-# Team EternalzTech (SIH-2025)
 
-- Ankur Kaman  
-- Arkajeet Bhattacharjee  
-- Nitish Kumar Das  
-- Devahuti Phukan  
-- Shrutidhara Tasa  
-- Shakhyar Gogoi (Repo Owner)
 
 # Methodology (Technical Section)
 
