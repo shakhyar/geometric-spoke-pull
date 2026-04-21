@@ -1,6 +1,6 @@
 # Geometric Spoke Pull (GSP) – Edge Time-Series Prediction on 2KB MCUs
 
-**by Shakhyar Gogoi — Edge AI & Microcontroller Time-Series Prediction**
+
 
 # Team EternalzTech (SIH-2025)
 
