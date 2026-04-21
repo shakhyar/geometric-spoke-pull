@@ -4,9 +4,9 @@
 
 ## By Team EternalzTech (SIH-2025)
 
-- Ankur Kaman  
-- Arkajeet Bhattacharjee  
+- Ankur Kaman
 - Nitish Kumar Das  
+- Arkajeet Bhattacharjee  
 - Devahuti Phukan  
 - Shrutidhara Tasa  
 - Shakhyar Gogoi (Repo Owner)
