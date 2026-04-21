@@ -45,7 +45,7 @@ def tube_projection(points, center_line):
     projected[points>upper] = upper[points>upper]
     projected[points<lower] = lower[points<lower]
     return projected, upper, lower
-
+# newly added angle strain component for better prediction in lower dimensions
 def angle_strain(points):
     out = [points[0]]
     for i in range(1,len(points)):
@@ -110,7 +110,7 @@ def train_single_graph(graph):
         "tube_lower": lower.tolist()
     }
 
-
+# added different evaluation graph estimation
 def evaluate(graphs):
     total_loss = 0
     count = 0
@@ -169,7 +169,7 @@ def main():
 
         train_loss = np.mean((np.array(result["corrected_preds"]) - np.array(g["y"][:len(result["corrected_preds"])]))**2)
         metrics["train_loss"].append(train_loss)
-    
+
     metrics["val_loss"] = evaluate(val_graphs)
     metrics["test_loss"] = evaluate(test_graphs)
 
