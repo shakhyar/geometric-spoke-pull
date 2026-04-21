@@ -2,7 +2,7 @@
 
 
 
-# Team EternalzTech (SIH-2025)
+### By Team EternalzTech (SIH-2025)
 
 - Ankur Kaman  
 - Arkajeet Bhattacharjee  
