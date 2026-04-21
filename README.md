@@ -1,5 +1,5 @@
 # Geometric Spoke Pull (GSP) – Edge Time-Series Prediction on 2KB MCUs
-### A New Ultra-Light AI Architecture for Soil Moisture Prediction on Low-Power Devices
+A New Ultra-Light AI Architecture for Soil Moisture Prediction on Low-Power Devices
 
 
 ## By Team EternalzTech (SIH-2025)
